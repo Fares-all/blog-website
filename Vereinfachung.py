@@ -5,3 +5,9 @@ def boolean_expression(a, b, c):
 
     result = term1 or term2 or term3
     return result
+a = True
+b = False
+c = True
+
+result = boolean_expression(a, b, c)
+print(f"Ergebnis für a={a}, b={b}, c={c}: {result}")
